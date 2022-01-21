@@ -1,0 +1,4 @@
+name: Lavaboatclutch
+version: '${project.version}'
+main: de.luck212.lavaboatclutch.main.Main
+api-version: 1.16
