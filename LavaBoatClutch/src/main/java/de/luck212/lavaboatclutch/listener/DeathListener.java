@@ -30,8 +30,10 @@ public class DeathListener implements Listener {
         }
 
         if(event.getEntity().getKiller() != null){
-        return;
+            event.getDrops().clear();
+            return;
         }else{
+            event.getDrops().clear();
             player.getInventory().clear();
             for(int i = 0; i <= player.getInventory().getSize(); i++){
                 if(player.getInventory().getItem(i) == null)
