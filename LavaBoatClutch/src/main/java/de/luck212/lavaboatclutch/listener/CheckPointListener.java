@@ -18,7 +18,6 @@ import java.util.List;
 public class CheckPointListener implements Listener {
 
     Main plugin;
-    private double distance;
 
     public CheckPointListener(Main plugin){
         this.plugin = plugin;
